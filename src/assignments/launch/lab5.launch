@@ -1,0 +1,14 @@
+<launch>
+  <node
+    pkg="assignments"
+    type="tour"
+    name="tour"
+    output="screen"
+  />
+  <node
+    pkg="assignments"
+    type="gotopoint"
+    name="gotopoint"
+    output="screen"
+  />
+</launch>
